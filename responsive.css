@@ -1,0 +1,16 @@
+@media all and (min-width: 768px) {
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+img {
+    margin: 30px;
+    max-width:70%;
+}
+
+}
