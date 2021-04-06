@@ -106,7 +106,7 @@ nav li {
     
 }
 
-nav li a {
+nav a {
     color: black;
     text-decoration: none;
     border-bottom: none;
@@ -114,14 +114,13 @@ nav li a {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-.hamburger-button:checked ~ nav li a{
+.hamburger-button:checked ~ nav a{
     opacity: 1;
 }
 
-nav li a:hover {
+nav a:hover {
     color: #feb633;
     border-bottom: 2px solid #feb633;
-    
 }
 
 
