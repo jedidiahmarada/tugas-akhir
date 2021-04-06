@@ -11,9 +11,9 @@ header {
     height: 80px;
     width: 100%;
     background-color: white;
-    position :fixed;
+    position: fixed;
     top: 0;
-    /* z-index: 90; */
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,9 +45,9 @@ header {
     flex-direction: row-reverse;
     /* justify-content: flex-end; */
 }
-.hamburger-button-label {
+/* .hamburger-button-label {
     padding: 20px;
-}
+} */
 
 .hamburger-button-label span,
 .hamburger-button-label span::before,
@@ -103,7 +103,6 @@ nav ul {
 nav li {
     margin-top: 0.75em;
     margin-left: 2em;
-    
 }
 
 nav a {
@@ -111,11 +110,12 @@ nav a {
     text-decoration: none;
     border-bottom: none;
     opacity: 0;
-    transition: opacity 250ms ease-in-out 250ms;
+    transition: opacity 150ms ease-in-out;
 }
 
 .hamburger-button:checked ~ nav a{
     opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
 }
 
 nav a:hover {
@@ -127,6 +127,9 @@ nav a:hover {
 
 /* ======= MAIN SECTION ======= */
 /* INTRODUCTION */
+
+
+
 .home {
     margin: 13em 12px 0 12px;
     width: 100%;
@@ -168,12 +171,17 @@ nav a:hover {
 }
 
 .image1 {
+    width: 100%;
     display:flex;
     align-items: center;
-    }
+    /* border: 1px solid red; */
+}
 
 img {
-    max-width:92%;
+    box-sizing: border-box;
+    max-width: 97%;
     height:auto;
     margin-top: 80px;
+    margin-right: 12px;
+    /* border: 1px solid black */
 }
