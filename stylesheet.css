@@ -198,9 +198,51 @@ main {
     display: flex;
     justify-content: center;
     z-index: 10;
+    background-image: url(https://pbs.twimg.com/media/EyX3e21UYAMOfOM?format=png&name=orig);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 375px;
+    text-decoration: underline #feb633;
+    /* border-bottom: 2px solid #feb633; */
+    /* background-size: 500px 500px; */
     /* background: url(https://pbs.twimg.com/media/EyT8OccUUAI42_d?format=png&name=orig);
     background-size: 100%; */
     /* border-bottom: 5px solid #feb633; */
+}
+
+.about-me-buttons {
+    /* border: 3px solid black; */
+    margin-top: 50px;
+}
+
+.about-me-buttons a{
+    padding: 10px 25px;
+    font-size: 13px;
+    border-radius: 2px;
+}
+
+.viewEx {
+    background-color: #feb633;
+    border: 2px solid #feb633;
+    color: white;
+}
+
+.viewEx:hover {
+    background-color: white;
+    border: 2px solid #feb633;
+    color: #feb633;
+}
+
+.dwCV {
+    border: 2px solid #feb633;
+    color: #feb633;
+    margin-left: 5px;
+}
+
+.dwCV:hover {
+    background-color: #feb633;
+    border: 2px solid #feb633;
+    color: white;
 }
 
 .about-me p {
@@ -210,19 +252,21 @@ main {
 
 .bg-about-me {
     z-index: 1;
+
 }
 
 
 /* --------WORK EXPERIENCE-------- */
 
-.work-experience h3 {
+.experience h3 {
     margin-top: 3em;
     font-size: 22px;
     display: flex;
     justify-content: center;
+    /* border-bottom: 2px solid #feb633; */
 }
 
-.work-experience p {
+.experience p {
     font-size: 15px;
     color: #333333;
 }
