@@ -46,9 +46,23 @@ main {
 
 .about-me-title {
     font-size: 45px;
-    padding: 200px 0;
+    padding: 50px 0;
 }
- */
+
+.about-me-right {
+    padding: 50px 0;
+}
+
+.about-me {
+    /* padding-top: 200px; */
+    /* margin-top: 200px; */
+    margin-bottom: 50px;
+    /* border: 3px solid black; */
+}
+
+.about-me-title-parent::before {
+    background-size: 100%;
+}
 
 
 /* ----------------WORK EXPERIENCE---------------- */
@@ -145,17 +159,7 @@ main {
     font-size: 13px;
 }
 
-
-
-
-
-
-
-
 }
-
-
-
 
 
 
@@ -168,13 +172,13 @@ main {
 
 .header-left h1 {
     font-size: 52px;
-    margin-left: 300px;
+    margin-left: 70px;
 }
 
 nav {
     all: unset;
     width: 100%;
-    margin-right: 300px;
+    margin-right: 70px;
     /* border: 3px solid black; */
     display: flex;
     justify-content: flex-end;
@@ -190,6 +194,14 @@ nav ul {
     /* border: 3px solid red; */
     display: flex;    
     flex-direction: row;
+    align-items: center;
+    /* padding: 0; */
+    /* background-color: unset; */
+}
+
+
+button {
+    margin: 0;
 }
 
 
@@ -235,6 +247,15 @@ main {
     font-size: 45px;
 }
 
+.about-me-title-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-title-parent::before {
+    background-size: 100%;
+}
 
 
 /* ----------------WORK EXPERIENCE---------------- */
@@ -316,3 +337,23 @@ main {
 
 
 }
+
+
+@media all and (min-width: 1400px) {
+
+    
+    .header-left h1 {
+        font-size: 52px;
+        margin-left: 250px;
+    }
+    
+    nav {
+        margin-right: 250px;
+    }
+
+}
+
+
+
+
+
