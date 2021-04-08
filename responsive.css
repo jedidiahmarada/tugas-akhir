@@ -1,30 +1,318 @@
-@media all and (min-width: 768px) {
+@media all and (min-width: 700px) {
+
+
+.header-left h1 {
+    margin: 0 0 0 40px;
+}
+
+.hamburger-button-label {
+    right: 40px;
+}
+
+
+/* ======= MAIN SECTION ======= */
+/* INTRODUCTION */
+
+
+main {
+    margin: 0 40px 0 40px;
+}
 
 .home {
+    all: unset;
+    margin-top: 11em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.home-left {
+    margin-top: 0;
+    /* border: 3px solid black; */
+}
+
+.home h1 {
+    max-width: 100%;
+    font-size: 50px;
+}
+
+.image1 img {
+    margin-top: 20px;
+}
+
+
+
+/* ----------------ABOUT ME---------------- */
+
+
+.about-me-title {
+    font-size: 45px;
+    padding: 200px 0;
+}
+ */
+
+
+/* ----------------WORK EXPERIENCE---------------- */
+
+
+.p-work-intro {
+    text-align: center;
+}
+
+.experience h3 {
+    font-size: 45px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+.experience .p-work-intro {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.kotak1{
+    /* border: 3px solid black; */
+    margin: 0 40px 0 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+}
+
+.kotak2{
+    margin: 0 40px 0 20px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+}
+
+
+
+/* ----------------HIRE ME---------------- */
+
+.hire-banner {
+    height: 400px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    /* border: 3px solid red; */
+}
+
+.hire-banner h1 {
+    font-size: 45px;
+}
+
+
+
+/* ----------------CONTACT ME---------------- */
+
+.contact-me-only {
+    margin: 0 20px 0 20px;
+}
+
+.contact-me-content {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+
+.contact-me h3 {
+    font-size: 45px;
+    padding-top: 100px;
+}
+
+.contact-form {
+    margin: 0 20px 0 20px;
+}
+
+.form-name {
+    margin: 0;
+}
+
+.contact-info {
+    width: 100%;
+}
+
+.contact-form input {
+    border-left: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
+.contact-form textarea {
+    border-left: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
+.contact-info .p-contact-location {
+    /* border: 3px solid black; */
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media all and (min-width: 1000px) {
+
+.hamburger-button-label {
+    display: none;
+}
+
+
+.header-left h1 {
+    font-size: 52px;
+    margin-left: 300px;
+}
+
+nav {
+    all: unset;
+    width: 100%;
+    margin-right: 300px;
+    /* border: 3px solid black; */
+    display: flex;
     justify-content: flex-end;
 }
 
-
-
-img {
-    margin: 30px;
-    max-width:70%;
+nav a {
+    opacity: 1;
+    font-size: 13px;
+    padding: 5px 0px;
 }
 
+nav ul {
+    /* border: 3px solid red; */
+    display: flex;    
+    flex-direction: row;
 }
 
 
 
+/* ======= MAIN SECTION ======= */
+/* INTRODUCTION */
 
+main {
+    margin: 0 15em 0 15em;
+}
 
-
-@media all and (min-width: 1080px) {
 
 .home {
-    
+    all: unset;
+    margin-top: 11em;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
+
+.home-left {
+    margin-top: 70px;
+}
+
+.home h1 {
+    max-width: 100%;
+    font-size: 75px;
+}
+
+
+
+/* ----------------ABOUT ME---------------- */
+
+.about-me {
+    width: 100%;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.about-me-title {
+    font-size: 45px;
+}
+
+
+
+/* ----------------WORK EXPERIENCE---------------- */
+
+.p-work-intro {
+    text-align: center;
+}
+
+.experience h3 {
+    font-size: 45px;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+.experience .p-work-intro {
+    margin-bottom: 0;
+}
+
+.kotak1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 10px;
+}
+
+.kotak2{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    column-gap: 10px;
+}
+
+
+
+/* ----------------HIRE ME---------------- */
+
+.hire-banner {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid red; */
+}
+
+.hire-banner h1 {
+    font-size: 45px;
+}
+
+
+
+/* ----------------CONTACT ME---------------- */
+
+.contact-me-only {
+    margin: 0 15em 0 15em;
+}
+
+.contact-me-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.contact-me h3 {
+    font-size: 45px;
+    padding-top: 100px;
+}
+
+.contact-form {
+    margin: 0 20px 0 20px;
+}
+
+.contact-form input {
+    border-left: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
+.contact-form textarea {
+    border-left: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
 
 
 }

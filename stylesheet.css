@@ -191,23 +191,33 @@ main {
 
 
 /* --------ABOUT ME-------- */
+.about-me-title-parent {
+    position: relative;
+}
 
 .about-me-title {
+    position: relative;
+    margin: 40px 0 22px 0;
     font-size: 22px;
     padding: 100px 0;
     display: flex;
     justify-content: center;
-    z-index: 10;
-    background-image: url(https://pbs.twimg.com/media/EyX3e21UYAMOfOM?format=png&name=orig);
-    background-size: contain;
-    background-repeat: no-repeat;
-    max-width: 375px;
     text-decoration: underline #feb633;
-    /* border-bottom: 2px solid #feb633; */
-    /* background-size: 500px 500px; */
-    /* background: url(https://pbs.twimg.com/media/EyT8OccUUAI42_d?format=png&name=orig);
-    background-size: 100%; */
-    /* border-bottom: 5px solid #feb633; */
+}
+
+.about-me-title-parent::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /* border: 3px solid black; */
+    background-image: url(https://pbs.twimg.com/media/Eybb2YpUUAIfzAG?format=png&name=orig);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
 }
 
 .about-me-buttons {
@@ -247,7 +257,7 @@ main {
 
 .about-me p {
     font-size: 15px;
-    color: #333333;
+    color: #8A8FA3;
 }
 
 .bg-about-me {
@@ -259,20 +269,21 @@ main {
 /* --------WORK EXPERIENCE-------- */
 
 .experience h3 {
-    margin-top: 3em;
+    padding-top: 5em;
     font-size: 22px;
     display: flex;
     justify-content: center;
     /* border-bottom: 2px solid #feb633; */
 }
 
-.experience p {
+.experience .p-work-intro {
     font-size: 15px;
-    color: #333333;
+    color: #8A8FA3;
+    padding-bottom: 10px;
 }
 
 .we {
-    margin-top: 30px;
+    margin-top: 20px;
     border: 1px solid #c7cad1;
 }
 
@@ -287,7 +298,7 @@ main {
 }
 
 .we p {
-    margin: 0 20px;
+    margin: 0 20px 0 20px;
     font-size: 12.5px;
     /* color: #959aac; */
 }
@@ -318,11 +329,50 @@ main {
     color: #84878f;
 }
 
+/* --------HIRE BANNER-------- */
 
-/* --------ORGANIZATIONAL EXPERIENCE-------- */
+.hire-banner { 
+    width: 100%;
+    margin-top: 40px;
+    background-image: url(https://pbs.twimg.com/media/EybPqfsVoAAVj-i?format=jpg&name=orig);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hire-banner h1 {
+    color: white;
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.hire-banner a {
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+    margin: 0 0 30px 0;
+    border: 3px solid white;
+    background-color: white;
+    color: #feb633;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 3px;
+    
+}
+
+
+/* --------CONTACT ME-------- */
+
+.contact-me {
+    margin: 0 12px;
+}
 
 .contact-me h3 {
-    margin-top: 3em;
+    padding-top: 5em;
     font-size: 22px;
     display: flex;
     justify-content: center;
