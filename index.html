@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="responsive.css">
     <title>Jedidiah's Personal Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link id="style" rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
@@ -21,34 +22,78 @@
           src="https://youtube.com/embed/iO-D2k-61EI?autoplay=1&controls=0&showinfo=0&autohide=1">
         </iframe>
       </div> -->
-    <header>
-            <div class="header-left">
-                <h1>J.</h1>
-            </div>
+    
+    <!-- ================= DARK MODE ================= -->
 
-            <input type="checkbox" id="hamburger-button" class="hamburger-button">
-            <label for="hamburger-button" class="hamburger-button-label">
-                <span></span>
-            </label>
-            <nav>
-                <ul>
-                    <li><a href="#homes">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#work">Work Experience</a></li>
-                    <li><a href="#organizational">Organizational Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <style>
-                li {
-                    cursor: pointer;
-                }
-            </style>
+    <!-- <button onclick="togglestyle()">go dark!</button>
+
+    <script type="text/javascript">
+
+        var cssStyle = document.getElementById("style");
+        var listStyle = ["style.css" , "style2.css"];
+
+        window.onload = function() {
+            if(localStorage && localStorage.getItem("style"))
+                cssStyle.href = localStorage.getitem("style");
+        };
+
+        function togglestyle() {
+            var previousStyle = cssStyle.href;
+
+            if(previousStyle.endsWith(listStyle[0]))
+                newStyle = listStyles[1];
+            else
+                newStyle = listStyles[0];
+            
+            cssStyle.href = newStyle;
+
+            if(localStorage)
+                localStorage.setItem("style", newStyle);
+        }
+
+    </script> -->
+    
+    
+    
+    
+    
+    
+    
+    <header>
+        <div class="header-left">
+            <h1>J.</h1>
+        </div>
+
+        <input type="checkbox" id="hamburger-button" class="hamburger-button">
+        <label for="hamburger-button" class="hamburger-button-label">
+            <span></span>
+        </label>
+        <nav>
+            <ul>
+                <li><a href="#homes">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#organizational">Organizational Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button onclick="togglestyle()">night/day</button></li>
+            </ul>
+        </nav>
+        <style>
+            li button {
+                cursor: pointer;
+            }
+        </style>
     </header>
 
 
-
     <main>
+        
+
+
+
+
+
+
         <!-- ========== HOME ========== -->
 
 
@@ -60,10 +105,42 @@
                 </div>
                 <a>Hire Me</a>
             </div>
+
             <div class="image1">
                 <img src="https://pbs.twimg.com/media/EyOuMDKUYAEv1ki?format=png&name=orig" class="intro-photo">
             </div>
         </div>
+
+
+
+        <script type="text/javascript">
+
+            var cssStyle = document.getElementById("style");
+            var listStyles = ["style.css" , "style2.css"];
+
+            window.onload = function() {
+                if(localStorage && localStorage.getItem("style"))
+                    cssStyle.href = localStorage.getitem("style");
+            };
+
+            function togglestyle() {
+                var previousStyle = cssStyle.href;
+
+                if(previousStyle.endsWith(listStyles[0]))
+                    newStyle = listStyles[1];
+                else
+                    newStyle = listStyles[0];
+                
+                cssStyle.href = newStyle;
+
+                if(localStorage)
+                    localStorage.setItem("style", newStyle);
+            }
+
+        </script>
+
+
+
 
 
         <!-- ========== ABOUT ME ========== -->

@@ -1,0 +1,177 @@
+body {
+    background-color: #252525;
+}
+
+
+nav ul {
+    background-color: #303030;
+}
+
+nav a {
+    color: white;
+}
+
+button {
+    background-color: #feb633;
+    color: black;
+}
+
+
+
+
+.home h1 {
+    color: #feb633;
+}
+
+.home a {
+    font-size: 19px;
+    color: #feb633;
+    font-weight: 500;
+    margin-top: 20px;
+    background-color: #252525;
+    border: 2px solid #feb633;
+    padding: 18px 70px;
+    border-radius: 3px;
+}
+
+.home a:active {
+    color: #252525;
+    background-color: #feb633;
+}
+
+
+
+
+.about-me-title {
+    color: black;
+}
+
+.about-me-title-parent::before {
+    opacity: 1;
+}
+
+.viewEx {
+    color: #252525;
+}
+
+.viewEx:active {
+    background-color: #252525;
+}
+
+.dwCV:active {
+    color: #252525;
+}
+
+
+
+
+
+.experience h3 {
+    color: #feb633;
+}
+
+.we p {
+    color: #c7cad1;
+}
+
+.we .p-company {
+    border-left: 2px solid #c7cad1;
+}
+
+.we:hover {
+    border: 2px solid #feb633;
+    background-color: #252525;
+    /* background-color: #feb633; */
+    /* color: #333333; */
+    transition: 0.3s;
+}
+
+.we:hover .p-content {
+    background-color: #252525;
+    color: #84878f;
+}
+
+
+
+
+.hire-banner h1 {
+    color: #252525;
+}
+
+.hire-banner a {
+    border: 3px solid #feb633;
+    background-color: #252525;
+    color: #feb633;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.contact-me h3 {
+    color: #feb633;
+}
+
+.contact-me h4 {
+    color: #c7cad1;
+}
+
+.contact-me .p-contact-location {
+    color: #84878f;
+}
+
+.contact-form p {
+    color: #c7cad1;
+}
+
+.contact-form input {
+    background-color: #84878f;
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+.contact-form input::placeholder{
+    background-color: #84878f;
+    color: black;
+}
+
+.contact-form textarea {
+    background-color: #84878f;
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+.contact-form textarea::placeholder{
+    background-color: #84878f;
+    color: black;
+}
+
+.btn-send {
+    background-color: #252525;
+    border: 2px solid #feb633;
+    color: #feb633;
+}
+
+footer p {
+    color: #84878f;
+}
+
+
+
+
+
+@media all and (min-width: 1000px) {
+
+    nav ul {
+        background-color: white;
+    }
+    
+    nav a {
+        color: #252525;
+    }
+    
+}
+
+
+
+
+

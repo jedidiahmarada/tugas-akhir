@@ -107,6 +107,7 @@ nav li {
 }
 
 nav a {
+    font-weight: 500;
     color: black;
     text-decoration: none;
     border-bottom: none;
@@ -114,15 +115,34 @@ nav a {
     transition: opacity 150ms ease-in-out;
 }
 
+nav a:hover {
+    color: #feb633;
+    border-bottom: 2px solid #feb633;
+}
+
+button {
+    font-family: inherit;
+    border-radius: 10px;
+    background-color: #333333;
+    color: #feb633;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+button:active {
+    border: none;
+}
+
+
+
 .hamburger-button:checked ~ nav a{
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-nav a:hover {
-    color: #feb633;
-    border-bottom: 2px solid #feb633;
-}
+
 
 
 
@@ -132,6 +152,7 @@ nav a:hover {
 main {
     margin: 0 12px 0 12px;
 }
+
 
 .home {
     margin: 13em 0 0 0;
@@ -177,7 +198,9 @@ main {
     width: 100%;
     display:flex;
     align-items: center;
-    /* border: 1px solid red; */
+    /* flex-direction: column;
+    justify-content: right;
+    border: 1px solid red; */
 }
 
 .image1 img {
@@ -237,7 +260,7 @@ main {
     color: white;
 }
 
-.viewEx:hover {
+.viewEx:active {
     background-color: white;
     border: 2px solid #feb633;
     color: #feb633;
@@ -249,7 +272,7 @@ main {
     margin-left: 5px;
 }
 
-.dwCV:hover {
+.dwCV:active {
     background-color: #feb633;
     border: 2px solid #feb633;
     color: white;
@@ -361,7 +384,6 @@ main {
     font-weight: 500;
     padding: 10px 15px;
     border-radius: 3px;
-    
 }
 
 
@@ -400,6 +422,7 @@ main {
 }
 
 .contact-form input {
+    font-family: inherit;
     width: 100%;
     border: none;
     box-shadow: 0 2px 2px #e2e2e2 , 0 -0.5px 1px #e2e2e2;
@@ -407,6 +430,7 @@ main {
 }
 
 .contact-form textarea {
+    font-family: inherit;
     width: 100%;
     margin: 0 0 40px 0;
     border: none;
@@ -416,14 +440,20 @@ main {
 
 .btn-send {
     background-color: #feb633;
+    border: 2px solid #feb633;
     border-radius: 2px;
     padding: 20px 35px;
     font-size: 14px;
     font-weight: 500;
     color:white;
-    /* display:inline-block; */
-    /* opacity:0.8; */
-  }
+}
+
+.btn-send:active {
+    background-color: white;
+    border: 2px solid #feb633;
+    color: #feb633;
+}
+
 
 .form {
     /* border: 3px solid black; */
