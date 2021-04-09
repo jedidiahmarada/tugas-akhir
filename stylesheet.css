@@ -111,6 +111,7 @@ nav a {
     border-bottom: none;
     opacity: 0;
     transition: opacity 150ms ease-in-out;
+    cursor: pointer;
 }
 
 nav a:hover {
@@ -127,6 +128,7 @@ button {
     margin-bottom: 50px;
     padding: 5px 10px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 button:active {
