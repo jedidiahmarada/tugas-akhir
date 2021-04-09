@@ -429,6 +429,10 @@ main {
     padding: 1em 0 1em 0;
 }
 
+.contact-form input::placeholder {
+    padding-left: 2%;
+}
+
 .contact-form textarea {
     font-family: inherit;
     width: 100%;
@@ -436,6 +440,10 @@ main {
     border: none;
     box-shadow: 0 2px 2px #e2e2e2 , 0 -0.5px 1px #e2e2e2;
     padding: 12px 0 15em 0;
+}
+
+.contact-form textarea::placeholder {
+    padding-left: 2%;
 }
 
 .btn-send {
