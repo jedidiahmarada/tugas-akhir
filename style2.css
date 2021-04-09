@@ -82,7 +82,6 @@ button {
     border: 2px solid #feb633;
     background-color: #252525;
     /* background-color: #feb633; */
-    /* color: #333333; */
     transition: 0.3s;
 }
 
@@ -158,7 +157,6 @@ footer p {
 
 
 
-
 @media all and (min-width: 1000px) {
 
     nav ul {
@@ -166,7 +164,7 @@ footer p {
     }
     
     nav a {
-        color: #252525;
+        color: #252525; 
     }
     
 }
